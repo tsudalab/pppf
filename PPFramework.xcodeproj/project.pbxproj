@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550584201A2B324B003993BA /* paillier.c in Sources */ = {isa = PBXBuildFile; fileRef = 5505841E1A2B324B003993BA /* paillier.c */; };
+		550584271A2C6765003993BA /* libmsgpack-rpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550584261A2C6765003993BA /* libmsgpack-rpc.a */; };
+		550584291A2C6783003993BA /* libmsgpack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550584281A2C6783003993BA /* libmsgpack.a */; };
+		5505842B1A2C67BD003993BA /* libmpio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505842A1A2C67BD003993BA /* libmpio.a */; };
+		550584301A2C7810003993BA /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505842F1A2C7810003993BA /* libboost_thread.a */; };
+		550584321A2C782D003993BA /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 550584311A2C782D003993BA /* libboost_system.dylib */; };
+		5554CB701A6BBA0600DC60A1 /* libboost_random.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5554CB6F1A6BBA0600DC60A1 /* libboost_random.dylib */; };
+		55CAE1231A2821FE008C3270 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CAE1221A2821FE008C3270 /* main.cpp */; };
+		55E547341A2838BB007F5E60 /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E547331A2838BB007F5E60 /* libgmp.a */; };
+		55E547421A28698F007F5E60 /* libgmpxx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E547411A28698F007F5E60 /* libgmpxx.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55CAE11D1A2821FE008C3270 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5505841E1A2B324B003993BA /* paillier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = paillier.c; path = LibPaillier/paillier.c; sourceTree = "<group>"; };
+		5505841F1A2B324B003993BA /* paillier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = paillier.h; path = LibPaillier/paillier.h; sourceTree = "<group>"; };
+		550584241A2C0E08003993BA /* RPCServer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RPCServer.hpp; sourceTree = "<group>"; };
+		550584261A2C6765003993BA /* libmsgpack-rpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmsgpack-rpc.a"; path = "/usr/local/lib/libmsgpack-rpc.a"; sourceTree = "<absolute>"; };
+		550584281A2C6783003993BA /* libmsgpack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmsgpack.a; path = /usr/local/lib/libmsgpack.a; sourceTree = "<absolute>"; };
+		5505842A1A2C67BD003993BA /* libmpio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmpio.a; path = /usr/local/lib/libmpio.a; sourceTree = "<absolute>"; };
+		5505842D1A2C6B2A003993BA /* RPCClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RPCClient.hpp; sourceTree = "<group>"; };
+		5505842F1A2C7810003993BA /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = /usr/local/lib/libboost_thread.a; sourceTree = "<absolute>"; };
+		550584311A2C782D003993BA /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../../../../../../../usr/local/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		550584341A2C887D003993BA /* Procedure.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Procedure.hpp; sourceTree = "<group>"; };
+		550BCEA41A59017200923A26 /* ProcInnerProduct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcInnerProduct.hpp; sourceTree = "<group>"; };
+		550BCEA61A59823000923A26 /* PackingUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PackingUtils.hpp; sourceTree = "<group>"; };
+		5554CB6F1A6BBA0600DC60A1 /* libboost_random.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_random.dylib; path = ../../../../../../../usr/local/lib/libboost_random.dylib; sourceTree = "<group>"; };
+		5554EB251A2AB66800B6C709 /* PrivateKeyInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrivateKeyInterface.hpp; sourceTree = "<group>"; };
+		55611AF91A397C24008EE04D /* ProcExchangePublicKeys.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcExchangePublicKeys.hpp; sourceTree = "<group>"; };
+		55CAE11F1A2821FE008C3270 /* PPFramework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PPFramework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CAE1221A2821FE008C3270 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55D9E2111A32B63C006CEAFE /* MultiplicativeInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MultiplicativeInterface.hpp; sourceTree = "<group>"; };
+		55D9E2131A355D0E006CEAFE /* Protocol.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Protocol.hpp; sourceTree = "<group>"; };
+		55D9E2191A356DA7006CEAFE /* RLWECryptosystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RLWECryptosystem.hpp; sourceTree = "<group>"; };
+		55D9E21C1A3578BD006CEAFE /* PrivateKeyOverrides.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrivateKeyOverrides.hpp; sourceTree = "<group>"; };
+		55D9E25E1A4D5235006CEAFE /* Cipher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cipher.hpp; sourceTree = "<group>"; };
+		55E0887F1A2EE5D6004C9CA4 /* Plain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plain.hpp; sourceTree = "<group>"; };
+		55E088821A2EFA00004C9CA4 /* CryptosystemBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CryptosystemBase.hpp; sourceTree = "<group>"; };
+		55E088981A3AB439004C9CA4 /* ProcObliviousMult.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcObliviousMult.hpp; sourceTree = "<group>"; };
+		55E547331A2838BB007F5E60 /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp.a; path = /usr/local/Cellar/gmp/6.0.0a/lib/libgmp.a; sourceTree = "<absolute>"; };
+		55E547391A283A8F007F5E60 /* Cryptosystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cryptosystem.hpp; sourceTree = "<group>"; };
+		55E5473C1A283D68007F5E60 /* AdditiveInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AdditiveInterface.hpp; sourceTree = "<group>"; };
+		55E5473F1A283DD3007F5E60 /* PaillierCryptosystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PaillierCryptosystem.hpp; sourceTree = "<group>"; };
+		55E547411A28698F007F5E60 /* libgmpxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmpxx.a; path = /usr/local/Cellar/gmp/6.0.0a/lib/libgmpxx.a; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CAE11C1A2821FE008C3270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550584301A2C7810003993BA /* libboost_thread.a in Frameworks */,
+				5505842B1A2C67BD003993BA /* libmpio.a in Frameworks */,
+				550584291A2C6783003993BA /* libmsgpack.a in Frameworks */,
+				550584271A2C6765003993BA /* libmsgpack-rpc.a in Frameworks */,
+				55E547421A28698F007F5E60 /* libgmpxx.a in Frameworks */,
+				5554CB701A6BBA0600DC60A1 /* libboost_random.dylib in Frameworks */,
+				550584321A2C782D003993BA /* libboost_system.dylib in Frameworks */,
+				55E547341A2838BB007F5E60 /* libgmp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550584211A2C0DDD003993BA /* Cryptosystem */ = {
+			isa = PBXGroup;
+			children = (
+				55E0887F1A2EE5D6004C9CA4 /* Plain.hpp */,
+				55D9E25E1A4D5235006CEAFE /* Cipher.hpp */,
+				55E088821A2EFA00004C9CA4 /* CryptosystemBase.hpp */,
+				55E547391A283A8F007F5E60 /* Cryptosystem.hpp */,
+				55D9E21C1A3578BD006CEAFE /* PrivateKeyOverrides.hpp */,
+				55D9E2161A355D5E006CEAFE /* Interfaces */,
+				55D9E2171A355D65006CEAFE /* Implementations */,
+			);
+			name = Cryptosystem;
+			sourceTree = "<group>";
+		};
+		550584221A2C0DED003993BA /* RPCComm */ = {
+			isa = PBXGroup;
+			children = (
+				550584241A2C0E08003993BA /* RPCServer.hpp */,
+				5505842D1A2C6B2A003993BA /* RPCClient.hpp */,
+				550BCEA61A59823000923A26 /* PackingUtils.hpp */,
+				550584341A2C887D003993BA /* Procedure.hpp */,
+				55E088981A3AB439004C9CA4 /* ProcObliviousMult.hpp */,
+				550BCEA41A59017200923A26 /* ProcInnerProduct.hpp */,
+				55611AF91A397C24008EE04D /* ProcExchangePublicKeys.hpp */,
+			);
+			name = RPCComm;
+			sourceTree = "<group>";
+		};
+		55CAE1161A2821FE008C3270 = {
+			isa = PBXGroup;
+			children = (
+				55CAE1211A2821FE008C3270 /* PPFramework */,
+				55CAE1201A2821FE008C3270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55CAE1201A2821FE008C3270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CAE11F1A2821FE008C3270 /* PPFramework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55CAE1211A2821FE008C3270 /* PPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				55CAE1221A2821FE008C3270 /* main.cpp */,
+				55D9E2131A355D0E006CEAFE /* Protocol.hpp */,
+				550584221A2C0DED003993BA /* RPCComm */,
+				550584211A2C0DDD003993BA /* Cryptosystem */,
+				55E5472D1A2836F9007F5E60 /* External Sources */,
+				55E547301A28381B007F5E60 /* Libs */,
+			);
+			path = PPFramework;
+			sourceTree = "<group>";
+		};
+		55D9E2161A355D5E006CEAFE /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				5554EB251A2AB66800B6C709 /* PrivateKeyInterface.hpp */,
+				55E5473C1A283D68007F5E60 /* AdditiveInterface.hpp */,
+				55D9E2111A32B63C006CEAFE /* MultiplicativeInterface.hpp */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		55D9E2171A355D65006CEAFE /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				55E5473F1A283DD3007F5E60 /* PaillierCryptosystem.hpp */,
+				55D9E2191A356DA7006CEAFE /* RLWECryptosystem.hpp */,
+			);
+			name = Implementations;
+			sourceTree = "<group>";
+		};
+		55E5472D1A2836F9007F5E60 /* External Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5505841E1A2B324B003993BA /* paillier.c */,
+				5505841F1A2B324B003993BA /* paillier.h */,
+			);
+			name = "External Sources";
+			sourceTree = "<group>";
+		};
+		55E547301A28381B007F5E60 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				5554CB6F1A6BBA0600DC60A1 /* libboost_random.dylib */,
+				5505842F1A2C7810003993BA /* libboost_thread.a */,
+				550584311A2C782D003993BA /* libboost_system.dylib */,
+				5505842A1A2C67BD003993BA /* libmpio.a */,
+				550584281A2C6783003993BA /* libmsgpack.a */,
+				550584261A2C6765003993BA /* libmsgpack-rpc.a */,
+				55E547411A28698F007F5E60 /* libgmpxx.a */,
+				55E547331A2838BB007F5E60 /* libgmp.a */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CAE11E1A2821FE008C3270 /* PPFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CAE1281A2821FE008C3270 /* Build configuration list for PBXNativeTarget "PPFramework" */;
+			buildPhases = (
+				55CAE11B1A2821FE008C3270 /* Sources */,
+				55CAE11C1A2821FE008C3270 /* Frameworks */,
+				55CAE11D1A2821FE008C3270 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPFramework;
+			productName = PPFramework;
+			productReference = 55CAE11F1A2821FE008C3270 /* PPFramework */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CAE1171A2821FE008C3270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Tsudalab;
+			};
+			buildConfigurationList = 55CAE11A1A2821FE008C3270 /* Build configuration list for PBXProject "PPFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55CAE1161A2821FE008C3270;
+			productRefGroup = 55CAE1201A2821FE008C3270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CAE11E1A2821FE008C3270 /* PPFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CAE11B1A2821FE008C3270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CAE1231A2821FE008C3270 /* main.cpp in Sources */,
+				550584201A2B324B003993BA /* paillier.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55CAE1261A2821FE008C3270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55CAE1271A2821FE008C3270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55CAE1291A2821FE008C3270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PPFramework",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55CAE12A1A2821FE008C3270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PPFramework",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CAE11A1A2821FE008C3270 /* Build configuration list for PBXProject "PPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CAE1261A2821FE008C3270 /* Debug */,
+				55CAE1271A2821FE008C3270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CAE1281A2821FE008C3270 /* Build configuration list for PBXNativeTarget "PPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CAE1291A2821FE008C3270 /* Debug */,
+				55CAE12A1A2821FE008C3270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CAE1171A2821FE008C3270 /* Project object */;
+}
