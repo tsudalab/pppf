@@ -25,7 +25,7 @@ Implementing a new cryptosystem is as easy as creating two subclasses (private k
 
 The best way to implement a new cryptosystem is to take example on the `PaillierCryptosystem` class, which implements a full Paillier cryptosystem (some of the low-level mathematical code for encryption/decryption is re-used from the [`LibPaillier` library](http://acsc.cs.utexas.edu/libpaillier/)) supporting homomorphic addition and plaintext multiplication.
 
-The base class architecture provides a number of intelligent defaults for all additional operations based on the base operations (such as unary minus operator) and overrides C++ mathematical and stream operators that lets you manipulate encrypted variables as if they were clear text (and therefore can be used in any template-based libraries that might require such operator support).
+The base class architecture provides a number of intelligent defaults for all additional operations based on the base operations (such as unary minus operator) and overrides C++ mathematical and stream operators to let you manipulate encrypted variables as if they were clear values (and therefore usable in any template-based libraries that might require such operator support).
 
 # Implementing your own procedures
 
