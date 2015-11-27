@@ -8,7 +8,7 @@ Its heavy use of templating allows flexible combinations of cryptosystems and pr
 
 The framework files are meant to be used inside your own project and should compile without much effort on any modern compilers (C11).
 
-The `only' two non-standard requirements are:
+The 'only' two non-standard requirements are:
 
 - [Boost library](http://www.boost.org) v.1.57 or later
 - [Gnu Multiple Precision Arithmetic Library](https://gmplib.org) v.6 or later
