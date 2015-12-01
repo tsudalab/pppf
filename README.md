@@ -1,6 +1,6 @@
 # Privacy-Preserving Protocols Framework
 
-This framework lays out a homogenised foundation for homomorphic and semi-homomorphic development, greatly simplifying the use implementaion of new cryptosystems and oblivious protocols over server-client architecture.
+This framework lays out a homogenised foundation for homomorphic and semi-homomorphic development, greatly simplifying the implementation and use of new cryptosystems and oblivious protocols over server-client architecture.
 
 Its heavy use of templating allows flexible combinations of cryptosystems and protocols and to build a full algebra on natural numbers (e.g. by combining an additive cryptosystem and a multiplication remote protocol). The resulting implementations let you create and use encrypted values using regular C++ operators.
 
